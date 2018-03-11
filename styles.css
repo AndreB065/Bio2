@@ -1,0 +1,143 @@
+body {
+	background-size: 100%;
+	display: block;
+	text-align: center;
+}
+
+nav {
+	background-color: ;
+	text-align: center;
+	font-size: 17px;
+	position: fixed;
+	top: 0;
+	width: 1340px;
+	padding: 10px;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 5px;
+}
+
+a.active {
+	background-color: green;
+	//border: 1px solid white;
+}
+
+a:hover {
+	background-color: gray;
+}
+
+main {
+	background-color: lightgray;
+	height: 530px;
+	text-align: left;
+	display: block;
+	padding: 10px;
+	margin: 3%;
+	border: 1px solid black;
+}
+
+h1 {
+	background-color: beige;
+	text-align: center;
+	border: 1px outset beige;
+	border-radius: 10px;
+	box-shadow: 1px -3px 4px 2px gray;
+}
+
+article {
+	width: 720px;
+	text-align: justify;
+	padding-left: 50px;
+	float: left;
+	
+}
+
+img {
+	width: 320px;
+	height: 320px;
+}
+
+footer {
+	background-color: ;
+	width: 1340px;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	padding: 5px;
+}
+
+#home-image {
+	background-color: none;
+	border: none;
+}
+
+#oi-body {
+	background-image: url(assets/image6.jpg);
+}
+
+#oi-main {
+	text-align: center;
+}
+
+#qa-body {
+	background-image: url(assets/image16.jpg);
+}
+
+#qa-main {
+	border: 1px solid black;
+}
+
+#qa-link {
+	color: blue;
+	text-decoration: underline;
+	margin: 0;
+}
+
+#qa-right-panel-container {
+	padding: 10px;
+	text-align: center;
+}
+
+#am-body {
+	background: url(assets/image4.jpg);
+}
+
+#am-main {
+	text-align: center;
+}
+
+#am-right-panel-container {
+	width: 325px;
+	height: 440px;
+	float: left;
+	margin-left: 40px;
+}
+
+#my-photo {
+	width: 220px;
+	height: 340px;
+	animation-name: picchange;
+	animation-delay: 5s;
+	animation-duration: 17s;
+	animation-iteration-count: 10;
+}
+
+#my-photo:hover {
+	content: url(assets/641.jpg);
+}
+
+@keyframes picchange {
+	0% {content: url(assets/643.jpg)}
+	16% {content: url(assets/640.jpg)}
+	33% {content: url(assets/642.jpg)}
+	50% {content: url(assets/641.jpg)}
+	68% {content: url(assets/639.jpg)}
+	84% {content: url(assets/638.jpg)}
+	100% {content: url(assets/643.jpg)}
+}
